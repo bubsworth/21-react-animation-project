@@ -8,10 +8,10 @@ export default function Modal({ title, children, onClose }) {
       <motion.dialog
         varients={{
           hidden: { opacity: 0, y: 30 },
-          visable: { opacity: 1, y: 0 },
+          visible: { opacity: 1, y: 0 },
         }}
         initial="hidden"
-        animate="visable"
+        animate="visible"
         exit="hidden"
         open
         className="modal"
